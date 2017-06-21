@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SobreViewController" customModule="Carros_iPad" customModuleProvider="target">
+            <connections>
+                <outlet property="imagem" destination="tIm-se-7r5" id="eSA-p4-dOu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Telefone: (11)97453-3045" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScF-ff-XWA">
+                    <rect key="frame" x="27" y="504" width="200" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0068513234701265257" green="0.021454015544041471" blue="0.0076516049780113457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joel de Almeida Souza" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4m-pr-a5d">
+                    <rect key="frame" x="75" y="69" width="174" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="oya-JR-AYX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0077559905143859383" green="0.021454015544041471" blue="0.0085984344699191039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tIm-se-7r5">
+                    <rect key="frame" x="27" y="174" width="268" height="267"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="267" id="A3M-hd-aCQ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bacharel em Ciência da Computação" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJi-0G-pWG">
+                    <rect key="frame" x="27" y="116" width="293" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0069134589726538879" green="0.021454015544041471" blue="0.0075980087181522372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tIm-se-7r5" secondAttribute="trailing" constant="73" id="5NN-MF-urb"/>
+                <constraint firstAttribute="trailing" secondItem="IJi-0G-pWG" secondAttribute="trailing" constant="67" id="6qN-vg-CQ1"/>
+                <constraint firstItem="IJi-0G-pWG" firstAttribute="centerX" secondItem="ScF-ff-XWA" secondAttribute="centerX" id="7si-rs-PCR"/>
+                <constraint firstItem="tIm-se-7r5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="34" id="81O-DK-pTG"/>
+                <constraint firstItem="tIm-se-7r5" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="MWq-OD-0Ic"/>
+                <constraint firstItem="tIm-se-7r5" firstAttribute="top" secondItem="IJi-0G-pWG" secondAttribute="bottom" constant="62" id="PhX-j6-MRK"/>
+                <constraint firstItem="v4m-pr-a5d" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="69" id="aSb-Ap-Zpu"/>
+                <constraint firstItem="IJi-0G-pWG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="aqR-mC-ft8"/>
+                <constraint firstItem="v4m-pr-a5d" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="75" id="fAm-Hw-eWZ"/>
+                <constraint firstItem="IJi-0G-pWG" firstAttribute="top" secondItem="v4m-pr-a5d" secondAttribute="bottom" constant="26" id="mvt-bP-Bxh"/>
+                <constraint firstItem="ScF-ff-XWA" firstAttribute="top" secondItem="tIm-se-7r5" secondAttribute="bottom" constant="48" id="riv-c0-IhL"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
