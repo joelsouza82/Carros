@@ -3,7 +3,7 @@
 //  Carros
 //
 //  Created by Joel de Almeida Souza on 7/11/14.
-//  Copyright (c) 2014 Ricardo Lecheta. All rights reserved.
+//  Copyright (c) 2014 Joel de Almeida Souza. All rights reserved.
 //
 
 import UIKit

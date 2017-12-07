@@ -17,7 +17,7 @@ class SobreViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         self.title="Sobre o Desenvolvedor"
-        let img = UIImage(named: "imag-iphone.png")
+        let img = UIImage(named: "iPhone-8-3-.jpg")
         self.imagem.image = img
        
        
