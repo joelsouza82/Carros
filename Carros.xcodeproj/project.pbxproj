@@ -10,6 +10,9 @@
 		0E230FDB1E5BE0D8004D5843 /* imag-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E230FDA1E5BE0D8004D5843 /* imag-iphone.png */; };
 		CF046FE81FD986DC00CAC39C /* iPhone-8-3-.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF046FE71FD986DC00CAC39C /* iPhone-8-3-.jpg */; };
 		CF1E60AA1FD98FBF0065B81F /* imag-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1E60A91FD98FBF0065B81F /* imag-iphone.png */; };
+		CFA1B77A1FD997E600647363 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1B7781FD997E600647363 /* SobreViewController.swift */; };
+		CFA1B77B1FD997E600647363 /* SobreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA1B7791FD997E600647363 /* SobreViewController.xib */; };
+		CFA1B77D1FD997FB00647363 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CFA1B77C1FD997FB00647363 /* index.html */; };
 		DD013FC719FC892100303133 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD013FC619FC892100303133 /* Launch Screen.xib */; };
 		DD08E21C197FF73400E1B6F7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD777A48197EDCD200CE8930 /* libsqlite3.dylib */; };
 		DD08E223198002F000E1B6F7 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08E21F198002F000E1B6F7 /* SMXMLDocument.m */; };
@@ -56,8 +59,6 @@
 		DDED731B197D81F6006A9C46 /* CarroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDED730A197D81F6006A9C46 /* CarroCell.xib */; };
 		DDED731C197D81F6006A9C46 /* ListaCarrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED730B197D81F6006A9C46 /* ListaCarrosViewController.swift */; };
 		DDED731D197D81F6006A9C46 /* ListaCarrosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDED730C197D81F6006A9C46 /* ListaCarrosViewController.xib */; };
-		DDED731E197D81F6006A9C46 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED730E197D81F6006A9C46 /* SobreViewController.swift */; };
-		DDED731F197D81F6006A9C46 /* SobreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDED730F197D81F6006A9C46 /* SobreViewController.xib */; };
 		DDED7322197D8231006A9C46 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED7320197D8231006A9C46 /* MyNavigationController.swift */; };
 		DDED7323197D8231006A9C46 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED7321197D8231006A9C46 /* MyTabBarController.swift */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,9 @@
 		0E230FDA1E5BE0D8004D5843 /* imag-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imag-iphone.png"; sourceTree = "<group>"; };
 		CF046FE71FD986DC00CAC39C /* iPhone-8-3-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-8-3-.jpg"; sourceTree = "<group>"; };
 		CF1E60A91FD98FBF0065B81F /* imag-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imag-iphone.png"; sourceTree = "<group>"; };
+		CFA1B7781FD997E600647363 /* SobreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
+		CFA1B7791FD997E600647363 /* SobreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobreViewController.xib; sourceTree = "<group>"; };
+		CFA1B77C1FD997FB00647363 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		DD013FC619FC892100303133 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		DD08E21E198002F000E1B6F7 /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
 		DD08E21F198002F000E1B6F7 /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
@@ -129,8 +133,6 @@
 		DDED730A197D81F6006A9C46 /* CarroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarroCell.xib; sourceTree = "<group>"; };
 		DDED730B197D81F6006A9C46 /* ListaCarrosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaCarrosViewController.swift; sourceTree = "<group>"; };
 		DDED730C197D81F6006A9C46 /* ListaCarrosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaCarrosViewController.xib; sourceTree = "<group>"; };
-		DDED730E197D81F6006A9C46 /* SobreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
-		DDED730F197D81F6006A9C46 /* SobreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobreViewController.xib; sourceTree = "<group>"; };
 		DDED7320197D8231006A9C46 /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyNavigationController.swift; path = Classes/ViewControllers/MyNavigationController.swift; sourceTree = "<group>"; };
 		DDED7321197D8231006A9C46 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTabBarController.swift; path = Classes/ViewControllers/MyTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -378,8 +380,9 @@
 		DDED730D197D81F6006A9C46 /* Sobre */ = {
 			isa = PBXGroup;
 			children = (
-				DDED730E197D81F6006A9C46 /* SobreViewController.swift */,
-				DDED730F197D81F6006A9C46 /* SobreViewController.xib */,
+				CFA1B77C1FD997FB00647363 /* index.html */,
+				CFA1B7781FD997E600647363 /* SobreViewController.swift */,
+				CFA1B7791FD997E600647363 /* SobreViewController.xib */,
 			);
 			path = Sobre;
 			sourceTree = "<group>";
@@ -480,13 +483,14 @@
 			files = (
 				DD36A89219702D4F00FBBB40 /* carros_classicos.xml in Resources */,
 				DDED731B197D81F6006A9C46 /* CarroCell.xib in Resources */,
+				CFA1B77B1FD997E600647363 /* SobreViewController.xib in Resources */,
 				DD36A89419702D4F00FBBB40 /* carros_luxo.xml in Resources */,
 				DDED7319197D81F6006A9C46 /* DetalhesCarroViewController.xib in Resources */,
-				DDED731F197D81F6006A9C46 /* SobreViewController.xib in Resources */,
 				CF1E60AA1FD98FBF0065B81F /* imag-iphone.png in Resources */,
 				0E230FDB1E5BE0D8004D5843 /* imag-iphone.png in Resources */,
 				DD013FC719FC892100303133 /* Launch Screen.xib in Resources */,
 				DDED731D197D81F6006A9C46 /* ListaCarrosViewController.xib in Resources */,
+				CFA1B77D1FD997FB00647363 /* index.html in Resources */,
 				DD36A88A19702D4F00FBBB40 /* mclaren.png in Resources */,
 				DD36A88E19702D4F00FBBB40 /* tab_sobre@2x.png in Resources */,
 				DD36A89319702D4F00FBBB40 /* carros_esportivos.xml in Resources */,
@@ -526,7 +530,6 @@
 				DD08E225198002F000E1B6F7 /* SQLiteObjc.m in Sources */,
 				DDED7318197D81F6006A9C46 /* DetalhesCarroViewController.swift in Sources */,
 				DD08E224198002F000E1B6F7 /* SQLiteHelper.swift in Sources */,
-				DDED731E197D81F6006A9C46 /* SobreViewController.swift in Sources */,
 				DD777A45197ED49000CE8930 /* PrefsFile.swift in Sources */,
 				DD5BE59319880CD300E0F2FA /* VideoUtil.swift in Sources */,
 				DD08E2271981527200E1B6F7 /* CarroDB.swift in Sources */,
@@ -536,6 +539,7 @@
 				DD08E223198002F000E1B6F7 /* SMXMLDocument.m in Sources */,
 				DDEA0019198574C400ECD625 /* MapViewController.swift in Sources */,
 				DDED7316197D81F6006A9C46 /* StringUtils.swift in Sources */,
+				CFA1B77A1FD997E600647363 /* SobreViewController.swift in Sources */,
 				DDED7314197D81F6006A9C46 /* DownloadImageView.swift in Sources */,
 				DDED731C197D81F6006A9C46 /* ListaCarrosViewController.swift in Sources */,
 				DD5BE58C1988057700E0F2FA /* VideoViewController.swift in Sources */,

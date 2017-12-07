@@ -35,6 +35,8 @@
 	<string>Permitir ler os dados do GPS</string>
 	<key>NSMainNibFile</key>
 	<string>Launch Screen</string>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

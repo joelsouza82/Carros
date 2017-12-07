@@ -1,36 +1,66 @@
 //
 //  SobreViewController.swift
-//  mCarros
+//  Carros
 //
-//  Created by Joel de Almeida Souza on 18/02/17.
-//  Copyright © 2017 Joel de Almeida Souza. All rights reserved.
+//  Created by Ricardo Lecheta on 7/11/14.
+//  Copyright (c) 2014 Ricardo Lecheta. All rights reserved.
 //
 
 import UIKit
 
-class SobreViewController: UIViewController {
+//let URL_SOBRE = "http://www.livroiphone.com.br/carros/sobre.htm"
 
-    @IBOutlet var imagem : UIImageView!
-   
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-        self.title="Sobre o Desenvolvedor"
-        let img = UIImage(named: "iPhone-8-3-.jpg")
-        self.imagem.image = img
-       
-       
+class SobreViewController: UIViewController, UIWebViewDelegate {
+    @IBOutlet var webView : UIWebView!
+    @IBOutlet var progress : UIActivityIndicatorView!
+    
+    init() {
+        super.init(nibName: "SobreViewController", bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // Título
+        self.title = "Sobre"
+        
+        // Inicia a animação do activity indicator
+        self.progress.startAnimating()
+        
+        // Carrega a URL no WebView
+        //let url = URL(string: URL_SOBRE)!
+
+        let path = Bundle.main.path(forResource: "index", ofType: "html")
+        print(path)
+        let url = NSURL(fileURLWithPath:path!)
+        
+        let request = URLRequest(url:url as URL,cachePolicy: NSURLRequest.CachePolicy.reloadIgnoringLocalCacheData, timeoutInterval: 0)
+        self.webView.loadRequest(request)
+
+        // delegate
+        self.webView.delegate = self
+        
+        print("go")
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        progress.stopAnimating()
+    }
+    
+    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        print("Carregando página \(request.url)")
+        return true
     }
     
     override var supportedInterfaceOrientations : UIInterfaceOrientationMask  {
         // Apenas vertical
         return UIInterfaceOrientationMask.portrait
     }
-   
+    
+    
+    
 }

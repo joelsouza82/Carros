@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E230FDB1E5BE0D8004D5843 /* imag-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E230FDA1E5BE0D8004D5843 /* imag-iphone.png */; };
+		CF64C6851FD9C6AD006147E9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CF64C6841FD9C6AD006147E9 /* index.html */; };
+		CF64C6871FD9CCD0006147E9 /* iPhone-8-3-.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF64C6861FD9CCD0006147E9 /* iPhone-8-3-.jpg */; };
 		DD013FC719FC892100303133 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD013FC619FC892100303133 /* Launch Screen.xib */; };
 		DD08E21C197FF73400E1B6F7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD777A48197EDCD200CE8930 /* libsqlite3.dylib */; };
 		DD08E223198002F000E1B6F7 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08E21F198002F000E1B6F7 /* SMXMLDocument.m */; };
@@ -72,6 +74,8 @@
 
 /* Begin PBXFileReference section */
 		0E230FDA1E5BE0D8004D5843 /* imag-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imag-iphone.png"; sourceTree = "<group>"; };
+		CF64C6841FD9C6AD006147E9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CF64C6861FD9CCD0006147E9 /* iPhone-8-3-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-8-3-.jpg"; sourceTree = "<group>"; };
 		DD013FC619FC892100303133 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		DD08E21E198002F000E1B6F7 /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
 		DD08E21F198002F000E1B6F7 /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 			children = (
 				0E230FDA1E5BE0D8004D5843 /* imag-iphone.png */,
 				DD36A87919702D4F00FBBB40 /* ferrari_ff.png */,
+				CF64C6861FD9CCD0006147E9 /* iPhone-8-3-.jpg */,
 				DD36A87A19702D4F00FBBB40 /* Images.xcassets */,
 				DD36A87B19702D4F00FBBB40 /* mclaren.png */,
 				DD36A87C19702D4F00FBBB40 /* tab_carros.png */,
@@ -372,6 +377,7 @@
 		DDED730D197D81F6006A9C46 /* Sobre */ = {
 			isa = PBXGroup;
 			children = (
+				CF64C6841FD9C6AD006147E9 /* index.html */,
 				DDED730E197D81F6006A9C46 /* SobreViewController.swift */,
 				DDED730F197D81F6006A9C46 /* SobreViewController.xib */,
 			);
@@ -473,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD36A89219702D4F00FBBB40 /* carros_classicos.xml in Resources */,
+				CF64C6851FD9C6AD006147E9 /* index.html in Resources */,
 				DDED731B197D81F6006A9C46 /* CarroCell.xib in Resources */,
 				DD36A89419702D4F00FBBB40 /* carros_luxo.xml in Resources */,
 				DDED7319197D81F6006A9C46 /* DetalhesCarroViewController.xib in Resources */,
@@ -487,6 +494,7 @@
 				DD36A88C19702D4F00FBBB40 /* tab_carros@2x.png in Resources */,
 				DD36A88B19702D4F00FBBB40 /* tab_carros.png in Resources */,
 				DD36A88D19702D4F00FBBB40 /* tab_sobre.png in Resources */,
+				CF64C6871FD9CCD0006147E9 /* iPhone-8-3-.jpg in Resources */,
 				DDEA001A198574C400ECD625 /* MapViewController.xib in Resources */,
 				DD36A88819702D4F00FBBB40 /* ferrari_ff.png in Resources */,
 				DD36A88919702D4F00FBBB40 /* Images.xcassets in Resources */,

@@ -3,9 +3,9 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "mclaren.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "iPhone-portrait.png",
       "scale" : "2x"
     },
     {
@@ -20,33 +20,33 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "iPad-port.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "iPad-port.png",
       "scale" : "1x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "iPad-land.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "iPad-land.png",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "iPad-port@2x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "iPad-port@2x.png",
       "scale" : "2x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "iPad-land@2x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "iPad-land@2x.png",
       "scale" : "2x"
     }
   ],
